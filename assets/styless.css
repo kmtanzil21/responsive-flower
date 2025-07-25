@@ -1,0 +1,11 @@
+.background{
+    background-image: url("flower-store.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background2{
+    background-image: url("news-letter-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
