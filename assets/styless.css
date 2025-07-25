@@ -9,3 +9,10 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.gray{
+    color:rgba(107, 114, 128, 1);
+}
+.gray-deep{
+    color: rgba(146, 142, 142, 0.929);
+}
