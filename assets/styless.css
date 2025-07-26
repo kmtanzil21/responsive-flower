@@ -2,6 +2,7 @@
     background-image: url("flower-store.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: cover;
 }
 
 .background2{
@@ -15,4 +16,37 @@
 }
 .gray-deep{
     color: rgba(146, 142, 142, 0.929);
+}
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+@media screen and (max-width:576px){
+    .navbar-design ul {
+        display: hidden;
+    }
+    .navbar-design{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar-img{
+        width: 100px;
+        height: 100px;
+    }
+    
 }
